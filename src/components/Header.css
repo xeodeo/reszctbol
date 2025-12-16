@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  padding: 20px 2rem; /* Añadido padding lateral para que el contenido no toque los bordes */
+  margin: 0;
+  border-bottom: 1px solid #1c1aa1; /* Cambiado de border a border-bottom */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  color: white;
+}
+
+/* Media Query (Móvil) */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 15px 10px;
+  }
+}

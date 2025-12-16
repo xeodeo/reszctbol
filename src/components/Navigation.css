@@ -1,0 +1,13 @@
+#Header{
+  list-style: none;
+  display: flex;
+  /* Eliminado 'columns: 3;' */
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+#Header li a {
+  text-decoration: none;
+  color: white;
+}
